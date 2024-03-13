@@ -6,7 +6,7 @@ import { authGuard } from './auth/auth.guard';
 
 
 export const routes: Routes = [
-
+    
     // SE PONE EL GUARD A LA RUTA QUE HAY QUE PROTEGER
     { path: '', component: HomeComponent, canActivate: [authGuard] },
 
